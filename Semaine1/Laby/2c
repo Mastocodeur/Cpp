@@ -1,0 +1,25 @@
+#include "robot.h"
+
+void fourmi()
+{
+  while(regarde()== Vide) {
+  avance();
+  if (regarde() != Vide){
+  gauche();
+    }
+  }
+  droite();
+  droite();
+  while(regarde()== Vide) {
+  avance();
+  if (regarde() != Vide){
+  droite();
+    }
+
+  }
+  
+  if(regarde()== Sortie)
+    ouvre();
+} 
+
+

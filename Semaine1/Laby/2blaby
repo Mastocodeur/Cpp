@@ -1,0 +1,28 @@
+#include "robot.h"
+void f() {
+prend();
+gauche();
+gauche();
+pose();
+droite();
+droite();
+}
+
+void fourmi()
+{
+while(regarde()!= Sortie){
+  if (regarde() == Vide) {
+    avance();
+  } else {
+    f();
+  } 
+  if(regarde()== Sortie){
+    ouvre();
+}
+}
+}
+
+
+
+
+

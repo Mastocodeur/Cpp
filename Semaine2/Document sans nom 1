@@ -1,0 +1,5 @@
+def semantique, syntaxe 
+syntaxe et sémantique de l'affectation de variable
+3.5*2 ===7double
+25/2 == 12 int
+14./3== 4.6667 double
